@@ -1,4 +1,4 @@
-"""# Customer Segmentation and Cluster Analysis
+# Customer Segmentation and Cluster Analysis
 
 This project performs customer segmentation on transactional online retail data using RFM (Recency, Frequency, Monetary) analysis and unsupervised machine learning models.
 
@@ -65,4 +65,4 @@ Based on K-Means centroids compared to the average metrics of the entire cohort,
 The pipeline saves two clean files to the root workspace:
 1. `customer_segments.csv`: The complete customer dataset with their RFM metrics, PCA coordinates, and cluster labels.
 2. `cluster_analysis.csv`: Grouped summary stats (mean Recency, Frequency, Monetary values) for each K-Means cluster.
-"""
+
